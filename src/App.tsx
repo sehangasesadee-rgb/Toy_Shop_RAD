@@ -8,6 +8,9 @@ import Navbar from './Navbar';
 import Hero from './Hero';
 import Benefits from './Benefits';
 import FlashSale from './FlashSale';
+import AgeRange from './AgeRange';
+import DealsSection from './DealsSection';
+
 
 import ReturnRefund from './pages/ReturnRefund';
 import SecurePayment from './pages/SecurePayment';
@@ -26,6 +29,9 @@ function App() {
               <Hero />
               <Benefits />
               <FlashSale/>
+              <AgeRange/>
+              <DealsSection/>
+              
             </>
           }
         />
