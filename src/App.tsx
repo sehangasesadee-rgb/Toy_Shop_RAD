@@ -11,6 +11,7 @@ import FlashSale from './FlashSale';
 import AgeRange from './AgeRange';
 import DealsSection from './DealsSection';
 import TrendingItems from './TrendingItems';
+import Footer from "./Footer";
 
 
 
@@ -40,7 +41,9 @@ function App() {
               <AgeRange/>
               <DealsSection/>
               <TrendingItems/>
-              <PopularBrands setBrand={setBrand}/>
+              <PopularBrands/>
+              <Footer></Footer>
+              {/* <PopularBrands setBrand={setBrand}/> */}
               
               
               
